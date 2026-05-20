@@ -12,9 +12,12 @@ Run sections 1-8 to install dependencies, sign in to Hugging Face, build the rec
 
 The notebook requires a Hugging Face token. Add your own token when prompted or store it as `HF_TOKEN` in Colab secrets. Do not commit tokens or credentials.
 
+After the Gradio UI opens, click `Load selected model` before asking a question. Loading the model is separated from chat requests so the interface does not appear to hang or time out during first model load. Phi-3.5-mini is recommended for quick testing; Llama-3.1-8B can take longer to load depending on the GPU runtime.
+
 ## What The UI Supports
 
 - Select Phi-3.5-mini or Llama-3.1-8B
+- Load or switch the selected Hugging Face model before chat
 - Select one of three sample user profiles
 - Ask default or custom meal planning questions
 - Get profile-aware recipe, pantry, nutrition, budget, web-search, and food-safety answers
