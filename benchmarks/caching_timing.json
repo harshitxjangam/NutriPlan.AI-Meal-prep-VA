@@ -1,5 +1,5 @@
 {
-  "three_query_pipeline_seconds": 32.62,
-  "system_prompt_tokens": 436,
+  "three_query_pipeline_seconds": 42.37,
+  "system_prompt_tokens": 438,
   "note": "Tokenized system prompt measured for caching discussion; generation path kept stable for Colab compatibility."
 }
